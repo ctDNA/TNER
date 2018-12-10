@@ -33,7 +33,7 @@ if(scalar(@ARGV) != 1){
 open (F1, "< $ARGV[0]" ) || die "Can't find the input file!\n";
 open (F2, "> $ARGV[0].freq");
 
-print F2 "CHR\t"."POSITION\t"."DEPTH\t"."REF\t"."R+\t"."R-\t"."A+\t"."A-\t"."C+\t"."C-\t"."T+\t"."T-\t"."G+\t"."g-\n";
+print F2 "CHR\t"."POSITION\t"."DEPTH\t"."REF\t"."R+\t"."R-\t"."A+\t"."A-\t"."C+\t"."C-\t"."T+\t"."T-\t"."G+\t"."G-\n";
 while (<F1>) {
         chomp;
         my($chr,$pos,$ref,$depth,$bases,$bq) = split /\s+/;
