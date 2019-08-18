@@ -1,12 +1,11 @@
 #################################################################
-# TNER: Tri-Nucleotide Error Reducer
-# Build cfDNA background polish model
+# TNER: Tri-Nucleotide Error Reducer2
+# Build cfDNA background polish model with cancer TNC
 # Using tri-nucleotide context data in a Bayesian model
-# Last updated: 10/02/2017 
+# Last updated: 08/17/2019 
 # Contact: shibing.deng {at} pfizer.com & tao.xie {at} pfizer.com
-# Pfizer Early Clinical Development Biostatistics 
-# Pfizer Early Oncology Development and Clinical Research 
-# Copyright (c) 2017 Pfizer Inc.  
+# Pfizer Oncology Research & Development 
+# Copyright (c) 2019 Pfizer Inc.  
 # All rights reserved.
 #################################################################
 #Terms of Use for TNER (Tri-Nucleotide Error Reducer)
